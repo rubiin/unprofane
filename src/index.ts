@@ -1,4 +1,4 @@
-import * as wordList from './static/languages/index';
+import * as wordList from './language.loader';
 
 interface UnprofaneOptions {
   lang?: string;

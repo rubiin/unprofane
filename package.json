@@ -29,7 +29,7 @@
     "*.d.ts"
   ],
   "scripts": {
-    "build": "tsup && copyfiles -f ./src/static/**/*.json ./dist/static/languages",
+    "build": "tsup && copyfiles -f ./src/data/*.json ./dist/data",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
     "release": "bumpp && clean-publish",

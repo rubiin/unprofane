@@ -1,6 +1,6 @@
 {
   "name": "unprofane",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Library to detect and redact profane words",
   "type": "module",
   "packageManager": "pnpm@7.2.1",
@@ -53,7 +53,7 @@
     "vite": "^4.0.0",
     "vitest": "^0.25.7",
     "copyfiles": "^2.1.1",
-    "prettier":"2.8.1"
+    "prettier": "2.8.1"
   },
   "clean-publish": {
     "cleanDocs": true,

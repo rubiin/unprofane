@@ -1,6 +1,6 @@
 {
   "name": "unprofane",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library to detect and redact profane words",
   "type": "module",
   "packageManager": "pnpm@7.2.1",
@@ -50,6 +50,7 @@
     "rimraf": "^3.0.2",
     "ts-jest": "29.0.3",
     "tsup": "^6.5.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "clean-publish": "^4.0.2"
   }
 }

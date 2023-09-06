@@ -1,6 +1,6 @@
 {
   "name": "unprofane",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library to detect and redact profane words",
   "type": "module",
   "packageManager": "pnpm@8.7.1",

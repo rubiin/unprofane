@@ -1,15 +1,16 @@
-import { defineBuildConfig } from 'unbuild'
+import { defineBuildConfig } from "unbuild";
 
 export default defineBuildConfig({
   entries: [
-    'src/index',
+    "src/index",
   ],
   declaration: true,
   clean: true,
+  sourcemap: false,
   rollup: {
-    inlineDependencies: true,
+    emitCJS: true,
     esbuild: {
-     minify: true
-    }
+      minify: true,
+    },
   },
-})
+});

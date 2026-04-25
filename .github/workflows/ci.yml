@@ -5,14 +5,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
         with:
-          version: 8
-      - uses: actions/setup-node@v3
+          version: 10
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18.x
-          cache: "pnpm"
+          node-version: 24.x
+          cache: pnpm
 
-      - run:  pnpm install --shamefully-hoist=true --frozen-lockfile
-      - run: pnpm run lint && pnpm run build
+      - run: pnpm install --shamefully-hoist
+      - run: pnpm lint
+      - run: pnpm build

@@ -1,15 +1,10 @@
 {
+  "extends": "@rubiin/tsconfig/tsconfig.json",
   "compilerOptions": {
-    "target": "es2018",
-    "module": "esnext",
-    "lib": ["esnext"],
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-  },
-  "include": ["src", "./**/*", "src/static/*"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ESNext",
+    "types": ["node", "vitest/globals"],
+    "rootDir": "."
+  }
 }

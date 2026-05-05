@@ -30,7 +30,8 @@
     "prepublishOnly": "npm run build",
     "release": "bumpp && clean-publish",
     "test": "jest --config ./tests/jest.config.json",
-    "lint": "oxlint '{src,test}/**/*.ts' --cache --fix",
+    "lint": "oxlint --ignore-pattern",
+    "lint:fix": "oxlint --fix",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit"
   },

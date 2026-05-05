@@ -23,7 +23,7 @@ export default class Unprofane {
     option = {
       lang: "all",
       placeHolder: "*",
-      regex: /[^a-zA-Z0-9|\$|\@]|\^/g,
+      regex: /[^a-zA-Z0-9|$|@]|\^/g,
       replaceRegex: /\w/g,
       exclude: [],
       ...option,

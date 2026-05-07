@@ -9,10 +9,10 @@ importers:
   .:
     devDependencies:
       '@rubiin/tsconfig':
-        specifier: ^2.1.1
-        version: 2.1.1
+        specifier: ^2.1.5
+        version: 2.1.5
       '@types/node':
-        specifier: ^24.12.0
+        specifier: ^24.12.2
         version: 24.12.2
       bumpp:
         specifier: ^11.0.1
@@ -684,8 +684,8 @@ packages:
   '@rolldown/pluginutils@1.0.0-rc.17':
     resolution: {integrity: sha512-n8iosDOt6Ig1UhJ2AYqoIhHWh/isz0xpicHTzpKBeotdVsTEcxsSA/i3EVM7gQAj0rU27OLAxCjzlj15IWY7bg==}
 
-  '@rubiin/tsconfig@2.1.1':
-    resolution: {integrity: sha512-lrIxSp7SAytBJgGiNZL1l+DDcZ4kMl6eeYiRKEBrh3swAFHNaSvLB8ROPIntqLqrhHU+IDuBtEsIxYJnG87gHQ==}
+  '@rubiin/tsconfig@2.1.5':
+    resolution: {integrity: sha512-d5t1MrkqybW/q3ISKZlHAomBykqDj4+0q2wd+rciRMcXAtiqJJjFUQW9cQHVa2T/0F3xLQvjD9h2ELyy4ncXWg==}
     engines: {node: '>=22'}
 
   '@sinclair/typebox@0.27.10':
@@ -2587,7 +2587,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-rc.17': {}
 
-  '@rubiin/tsconfig@2.1.1': {}
+  '@rubiin/tsconfig@2.1.5': {}
 
   '@sinclair/typebox@0.27.10': {}
 

@@ -11,5 +11,10 @@ export default defineConfig({
   dts: true,
   clean: true,
   minify: true,
-  exports: true
+  exports: true,
+  copy: [
+    {
+      from: "src/data/*.json", to: "dist/data"
+    }
+  ]
 })

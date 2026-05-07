@@ -1,6 +1,8 @@
 import Profanease from "../src/index";
 import * as wordList from "../src/language.loader";
 
+import { describe, it, expect } from "vitest";
+
 describe("Post", () => {
   it("Profanease: Default", () => {
     let isProfane = new Profanease({ lang: "en" });
